@@ -8,288 +8,291 @@
         RESET
 =========================== */
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html{
-    scroll-behavior:smooth;
+html {
+    scroll-behavior: smooth;
 }
 
-body{
-    font-family:'Inter',sans-serif;
-    background:#ffffff;
-    color:#1B1B1B;
-    overflow-x:hidden;
+body {
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #1B1B1B;
+    overflow-x: hidden;
 }
 
 /* ===========================
         GLOBAL
 =========================== */
 
-img{
-    max-width:100%;
-    display:block;
+img {
+    max-width: 100%;
+    display: block;
 }
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
 }
 
-ul{
-    list-style:none;
+ul {
+    list-style: none;
 }
 
-section{
-    padding:100px 8%;
+section {
+    padding: 100px 8%;
 }
 
-h1{
-    font-size:clamp(2rem,6vw,4rem);
-    line-height:1.1;
-    font-weight:800;
+h1 {
+    font-size: clamp(2rem, 6vw, 4rem);
+    line-height: 1.1;
+    font-weight: 800;
 }
 
-h2{
-    font-size:clamp(2rem,4vw,3rem);
-    font-weight:700;
+h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
 }
 
-h3{
-    font-size:1.5rem;
+h3 {
+    font-size: 1.5rem;
 }
 
-p{
-    font-size:1.05rem;
-    color:#6b7280;
-    line-height:1.8;
+p {
+    font-size: 1.05rem;
+    color: #6b7280;
+    line-height: 1.8;
 }
 
 /* ===========================
         NAVBAR
 =========================== */
 
-header{
-    position:sticky;
-    top:0;
-    z-index:999;
-    background:#ffffff;
-    border-bottom:1px solid #eeeeee;
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #ffffff;
+    border-bottom: 1px solid #eeeeee;
 }
 
-.navbar{
+.navbar {
 
-    max-width:1400px;
-    margin:auto;
+    max-width: 1400px;
+    margin: auto;
 
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    padding:20px 8%;
+    padding: 20px 8%;
 }
 
-.logo{
+.logo {
 
-    font-size:2rem;
-    font-weight:800;
-    color:#3E3EF8;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #3E3EF8;
 }
 
-.nav-links{
+.nav-links {
 
-    display:flex;
-    gap:40px;
+    display: flex;
+    gap: 40px;
 }
 
-.nav-links a{
+.nav-links a {
 
-    color:#555;
-    font-weight:500;
-    transition:.3s;
+    color: #555;
+    font-weight: 500;
+    transition: .3s;
 }
 
 .nav-links a:hover,
-.nav-links .active{
+.nav-links .active {
 
-    color:#3E3EF8;
+    color: #3E3EF8;
 }
 
-.nav-buttons{
+.nav-buttons {
 
-    display:flex;
-    gap:15px;
+    display: flex;
+    gap: 15px;
 }
 
 /* ===========================
         BUTTONS
 =========================== */
 
-.btn-primary{
+.btn-primary {
 
-    display:inline-flex;
-    align-items:center;
-    gap:10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
 
-    padding:16px 28px;
+    padding: 16px 28px;
 
-    background:#3E3EF8;
-    color:white;
+    background: #3E3EF8;
+    color: white;
 
-    border-radius:999px;
+    border-radius: 999px;
 
-    transition:.35s;
+    transition: .35s;
 }
 
-.btn-primary img{
+.btn-primary img {
 
-    width:18px;
+    width: 18px;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
 
-    transform:translateY(-3px);
+    transform: translateY(-3px);
 
-    box-shadow:0 15px 35px rgba(62,62,248,.35);
+    box-shadow: 0 15px 35px rgba(62, 62, 248, .35);
 }
 
-.btn-outline{
+.btn-outline {
 
-    display:inline-flex;
-    align-items:center;
+    display: inline-flex;
+    align-items: center;
 
-    padding:16px 28px;
+    padding: 16px 28px;
 
-    border:1px solid #3E3EF8;
+    border: 1px solid #3E3EF8;
 
-    color:#3E3EF8;
+    color: #3E3EF8;
 
-    border-radius:999px;
+    border-radius: 999px;
 
-    transition:.35s;
+    transition: .35s;
 }
 
-.btn-outline:hover{
+.btn-outline:hover {
 
-    background:#3E3EF8;
-    color:white;
+    background: #3E3EF8;
+    color: white;
 }
 
 /* ===========================
         HERO
 =========================== */
 
-.hero{
+.hero {
 
-    max-width:1400px;
-    margin:auto;
+    max-width: 1400px;
+    margin: auto;
 
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-    gap:70px;
+    gap: 70px;
 }
 
-.hero-content{
+.hero-content {
 
-    flex:1;
+    flex: 1;
 }
 
-.badge{
+.badge {
 
-    display:inline-block;
+    display: inline-block;
 
-    padding:10px 20px;
+    padding: 10px 20px;
 
-    border-radius:999px;
+    border-radius: 999px;
 
-    border:1px solid #d8d8d8;
+    border: 1px solid #d8d8d8;
 
-    margin-bottom:25px;
+    margin-bottom: 25px;
 
-    font-size:.9rem;
+    font-size: .9rem;
 
-    font-weight:600;
+    font-weight: 600;
 }
 
-.hero-content h1{
+.hero-content h1 {
 
-    margin-bottom:25px;
+    margin-bottom: 25px;
 }
 
-.hero-content p{
+.hero-content p {
 
-    max-width:580px;
+    max-width: 580px;
 
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
-.hero-buttons{
+.hero-buttons {
 
-    display:flex;
+    display: flex;
 
-    gap:18px;
+    gap: 18px;
 
-    margin-bottom:60px;
+    margin-bottom: 60px;
 }
 
-.hero-image{
+.hero-image {
 
-    flex:1;
+    flex: 1;
 
-    display:flex;
-    justify-content:flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.hero-image img{
+.hero-image img {
 
-    width:100%;
-    max-width:560px;
+    width: 100%;
+    max-width: 560px;
 
-    aspect-ratio:4/5;
+    aspect-ratio: 4/5;
 
-    object-fit:cover;
+    object-fit: cover;
 
-    border-radius:30px;
+    border-radius: 30px;
 
-    box-shadow:0 30px 60px rgba(0,0,0,.08);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, .08);
 }
-.hero-content h1 span{
+
+.hero-content h1 span {
     font-family: 'Ibarra Real Nova', serif;
     font-weight: 600;
-    font-style: italic;      /* Optional */
-    color: var(--primary);   /* Optional */
+    font-style: italic;
+    /* Optional */
+    color: var(--primary);
+    /* Optional */
 }
+
 /* ===========================
         STATS
 =========================== */
 
-.stats{
+.stats {
 
-    display:flex;
+    display: flex;
 
-    gap:50px;
+    gap: 50px;
 }
 
-.stat{
+.stat {
 
-    max-width:170px;
+    max-width: 170px;
 }
 
-.stat h3{
+.stat h3 {
 
-    font-size:3rem;
+    font-size: 3rem;
 
-    color:#3E3EF8;
+    color: #3E3EF8;
 
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
-.stat p{
+.stat p {
 
-    font-size:.95rem;
+    font-size: .95rem;
 }
-
